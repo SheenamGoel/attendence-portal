@@ -1,0 +1,205 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+  <!-- Required meta tags -->
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+  <!-- Bootstrap CSS -->
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css"
+    integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+  <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@300&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+
+  <title>ContactPage</title>
+
+
+</head>
+
+<body>
+  <nav class="navbar">
+    <span class="navbar-toggle" id="js-navbar-toggle">
+            <i class="fa fa-bars"></i>
+        </span>
+        <a href="home2.html">
+          <img src="logo-nav.jpg" height="50" width="120">
+        </a>
+    <ul class="main-nav" id="js-menu">
+      <li>
+        <a href="home2.html" class="nav-links"><span class="fa fa-home"></span> Home</a>
+      </li>
+      <li>
+        <a href="about2.html" class="nav-links"><span class="fa fa-info"></span> About Us</a>
+      </li>
+      <li>
+        <a href="#" class="nav-links"><span class="fa fa-address-book"></span> Contact Us</a>
+      </li>
+      <li>
+        <a href="signin.html" class="nav-links"><span class="fa fa-sign-in"></span> Sign In</a>
+      </li>
+      <li>
+        <a href="register2.html" class="nav-links"><span class="fa fa-user-plus"></span> Register</a>
+      </li>
+    </ul>
+  </nav>
+
+  <div class="jumbotron">
+    <div class="container">
+      <div class="row row-header">
+        <div class="col-12 col-sm-8">
+          <h1>WELCOME TO CONTACT PAGE</h1>
+          <p>Attendance made easy!!</p>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <br>
+
+    <div class="row row-content">
+      <div class="col-12">
+        <h3>Location Information</h3>
+      </div>
+      <div class="col-12 col-sm-4 offset-sm-1">
+        <h5>Our Address</h5>
+        <address style="font-size: 100%">
+          SETH JAI PARAKASH MUKAND LAL INSTITUTE OF ENGINEERING AND TECHNOLOGY<br>
+          RADUAR<br>
+          YAMUNA-NAGAR<br>
+          <i class="fa fa-phone"></i>: 91-1732-284195<br>
+          <i class="fa fa-fax"></i>: 8295905206<br>
+          <i class="fa fa-envelope"></i>:
+          <a href="mailto:director@jmit.ac.in">director@jmit.ac.in</a>
+        </address>
+      </div>
+      <div class="col-12 col-sm-6 offset-sm-1">
+            <img src="auditorium.jpg">
+      </div>
+      <div class="col-12 col-sm-11 offset-sm-1">
+        <div class="btn-group" role="group"></div>
+        <a class="btn btn-primary" role="button" href="tel:8295905206"><span class="fa fa-phone"></span>
+          Call</a>
+        <a class="btn btn-info" role="button" href=""><span class="fa fa-skype"></span> Skype</a>
+        <a class="btn btn-success" role="button" href="mailto:jmit.ac.in"><span class="fa fa-envelope-o"></span>
+          Email</a>
+      </div>
+    </div>
+
+    <br><br>
+    <div class="row row-content">
+      <div class="col-12">
+        <h3>Send us your Feedback</h3>
+      </div>
+      <div class="col-12 col-md-9">
+        <form>
+          <div class="form-group row">
+            <label for="firstname" class="col-md-2 col-form-label">Fisrt Name</label>
+            <div class="col-md-10">
+              <input type="text" class="form-control" id="firstname" name="firstname" placeholder="First Name">
+            </div>
+          </div>
+          <div class="form-group row">
+            <label for="lastname" class="col-md-2 col-form-label">Last Name</label>
+            <div class="col-md-10">
+              <input type="text" class="form-control" id="lastname" name="lastname" placeholder="Last Name">
+            </div>
+          </div>
+          <div class="form-group row">
+            <label for="telnum" class="col-md-2 col-form-label">Contact Tel.</label>
+            <div class="col-5 col-md-3">
+              <input type="tel" class="form-control" id="countrycode" name="countrycode" placeholder="Country Code">
+            </div>
+            <div class="col-7 col-md-7">
+              <input type="tel" class="form-control" id="telnum" name="telnum" placeholder="Tel. Number">
+            </div>
+          </div>
+          <div class="form-group row">
+            <label for="email" class="col-md-2 col-form-label">E-mail</label>
+            <div class="col-md-10">
+              <input type="email" class="form-control" id="email" name="email" placeholder="E-mail">
+            </div>
+          </div>
+          <div class="form-group row">
+            <div class="col-md-6 offset-md-2">
+              <div class="form-check">
+                <input type="checkbox" class="form-check-input" name="approve" id="approve" value="">
+                <label for="approve" class="form-check-label"><strong>May we contact
+                    you?</strong></label>
+              </div>
+            </div>
+            <div class="col-md-3" offset-md-1>
+              <select class="form-control">
+                <option>Tel.</option>
+                <option>Email</option>
+              </select>
+            </div>
+          </div>
+          <div class="form-group row">
+            <label for="feedback" class="col-md-2 col-form-label">Your Feedback</label>
+            <div class="col-md-10">
+              <textarea class="form-control" id="feedback" name="feedback" rows="12"></textarea>
+            </div>
+          </div>
+          <div class="form-group row">
+            <div class="offset-md-2 col-md-10">
+              <button type="submit" class="btn btn-primary">Send Feedback</button>
+            </div>
+          </div>
+        </form>
+      </div>
+    </div>
+    <div class="col-12 col-md">
+
+    </div>
+  </div>
+
+  <footer class="footer-distributed">
+
+    <div class="footer-left">
+
+      <p class="footer-links">
+        <a href="#">Home</a>
+        |
+        <a href="about2.html">About</a>
+        |
+        <a href="contact2.html">Contact</a>
+      </p>
+
+      <p class="footer-company-name">© 2020 Mukand.All Rights Reserved</p>
+    </div>
+
+    <div class="footer-center">
+      <div>
+        <i class="fa fa-map-marker"></i>
+          <p><span>JMIT
+          Radaur,Yamuna-nagar</span></p>
+      </div>
+
+      <div>
+        <i class="fa fa-phone"></i>
+        <p>+91 22-27782183</p>
+      </div>
+      <div>
+        <i class="fa fa-envelope"></i>
+        <p><a href="mailto:director@jmit.ac.in">director@jmit.ac.in</a></p>
+      </div>
+    </div>
+    <div class="footer-right">
+      <p class="footer-company-about">
+        <span>About the company</span>
+        We offer training and skill building courses across Technology, Design, Management, Science and Humanities.</p>
+      <div class="footer-icons">
+        <a href="#"><i class="fa fa-facebook"></i></a>
+        <a href="#"><i class="fa fa-twitter"></i></a>
+        <a href="#"><i class="fa fa-instagram"></i></a>
+        <a href="#"><i class="fa fa-linkedin"></i></a>
+      </div>
+    </div>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+
+</html>
